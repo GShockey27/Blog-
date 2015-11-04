@@ -1,0 +1,17 @@
+<main class="container">
+  <section class="row">
+    <div class="col-6 push-3">
+      <h2>Story: localhost:3000/<%= @story.title %></h2>
+      <p>
+        Link: <%= link_to @story.link %>
+      </p>
+      <p>
+        Upvotes: <%= @story.upvotes %>
+      </p>
+      <p>
+        Category: <%= @story.category %>
+      </p>
+    </div>
+  </section>
+</main>
+

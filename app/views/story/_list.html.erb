@@ -1,0 +1,15 @@
+# a list
+<% @story.each do |story| %>
+	<section>
+		<h3> <%= link_to story.title, story %></h3>
+		<p>
+			<%= link_to story.link %>
+		</p>
+		<p>
+			<%= story.upvotes %>
+		</p>
+		<p>
+			<%= story.category %>
+		</p>
+	</section>
+<% end %>

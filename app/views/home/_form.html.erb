@@ -1,0 +1,23 @@
+<%= form_for @story do |f| %>
+    <div>
+      <%= f.label :title%>
+      <br />
+      <%= f.text_field :title%>
+    </div>
+    <div>
+      <%= f.label :link %>
+      <br />
+      <%= f.text_field :link %>
+    </div>
+    <div>
+      <%= f.label :upvotes %>
+      <br />
+      <%= f.text_field :upvotes %>
+    </div>
+    <div>
+      <%= f.label :category %>
+      <br />
+      <%= f.text_field :category %>
+    </div>
+  <%= f.submit %>
+<% end %>
